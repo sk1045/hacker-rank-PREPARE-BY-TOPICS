@@ -1,0 +1,9 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+if __name__ == '__main__':
+    n = int(input())
+    integer_list = map(int, input().split())
+    
+    tupl = tuple(integer_list)
+    print(hash(tupl))
+
+# if you getting error or different out put try to change python interpreter pypy3
